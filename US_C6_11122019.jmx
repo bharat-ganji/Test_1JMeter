@@ -76,7 +76,7 @@
           <stringProp name="variableNames"></stringProp>
         </CSVDataSet>
         <hashTree/>
-        <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="Past Date" enabled="false">
+        <JSR223PostProcessor guiclass="TestBeanGUI" testclass="JSR223PostProcessor" testname="Past Date" enabled="true">
           <stringProp name="scriptLanguage">java</stringProp>
           <stringProp name="parameters"></stringProp>
           <stringProp name="filename"></stringProp>
