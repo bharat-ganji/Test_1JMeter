@@ -83,12 +83,12 @@
           <stringProp name="cacheKey">true</stringProp>
           <stringProp name="script">import java.text.SimpleDateFormat;
 import java.util.Date;
-int DaysCount = 90;
+int DaysCount = 60;
 Date date = new Date();
 date.setDate(date.getDate() - DaysCount);
 SimpleDateFormat df  = new SimpleDateFormat(&quot;yyyy-MM-dd&quot;);
 String formattedDate = df.format(date);
-vars.put(&quot;Dyn_Today_Date_3Months_Old&quot;,formattedDate);
+vars.put(&quot;Dyn_Today_Date_2Months_Old&quot;,formattedDate);
 
 </stringProp>
         </JSR223PostProcessor>
